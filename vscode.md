@@ -18,4 +18,5 @@ Select lines with `Option` pressed
 
 | Shortcut    | Action                       |
 | ----------- | ---------------------------- |
-| `Cmd` + `w` | close the current editor tab |
+| Cmd + W     | close the current editor tab |
+| Option + Up |                              |

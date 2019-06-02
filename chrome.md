@@ -4,9 +4,9 @@
 
 | Shortcut                   | Action                        |
 | -------------------------- | ----------------------------- |
-| Cmd + t                    | Open a new tab                |
-| Cmd + y                    | Open history on a new tab     |
-| Cmd + l                    | Jump to the search bar        |
+| Cmd + T                    | Open a new tab                |
+| Cmd + Y                    | Open history on a new tab     |
+| Cmd + L                    | Jump to the search bar        |
 | Cmd + Option + Right Arrow | Jump to the next open tab     |
 | Cmd + Option + Left Arrow  | Jump to the previous open tab |
 
