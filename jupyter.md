@@ -9,11 +9,15 @@
 
 ## Location of _custom.js_
 
-`~/.jupyter/custom/custom.js`
+```
+~/.jupyter/custom/custom.js
+```
 
 ## Print out config directory
 
-`jupyter --config-dir`
+```
+~/.jupyter/custom/custom.js
+```
 
 ## Tips
 
