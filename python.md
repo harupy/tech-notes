@@ -1,3 +1,11 @@
+## Read a JSON file
+
+```python
+def read_json(filepath):
+  with open(filepath, 'r') as f:
+    return json.load(f)
+```
+
 ## Python Logger Starter
 
 ```python

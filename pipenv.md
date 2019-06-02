@@ -1,26 +1,14 @@
-## Pipenv
+# pipenv
 
-```console
-# Create a new virtualenv with a specific python version
-pipevn --python 3.6
+## Commands
 
-# Activate the Pipenv shell
-pipenv shell
-
-# Install a package
-pipenv install <package_name>
-
-# pip freeze
-pipenv lock -r > requirements.txt
-
-# Install dependencies with requirements.txt
-pipenv install -r requirements.txt
-
-# Install dev dependencies
-pipenv install --dev flake8
-
-# Create .venv in the project root
-PIPENV_VENV_IN_PROJECT=1
-```
+| Command                             | Action                                                 |
+| ----------------------------------- | ------------------------------------------------------ |
+| pipenv --python x.x                 | create a new virtualenv with a specific python version |
+| pipenv shell                        | activate the pipenv shell                              |
+| pipenv install <package_name>       | install a package                                      |
+| pipenv rock -r > requirements.txt   | save dependencies to requirements.txt                  |
+| pipenv install -r requirements.txt  | install dependencies with requirements.txt             |
+| pipenv install --dev <package_name> | install dev dependency                                 |
 
 [Pipenv: Python Dev Workflow for Humans — pipenv 2018.11.27.dev0 documentation](https://docs.pipenv.org/en/latest/)

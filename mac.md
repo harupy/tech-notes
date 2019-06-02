@@ -1,3 +1,12 @@
+# Mac
+
+## Shortcuts
+
+| Shortcut    | Action                                   |
+| ----------- | ---------------------------------------- |
+| Cmd + Space | toggle the Spotlight search field        |
+| Cmd + Tab   | move through a list of open applications |
+
 ## Switch Cmd and Ctrl
 
 1. From the Apple menu, select **System Preferences**
