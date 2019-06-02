@@ -1,5 +1,5 @@
 # Git
 
-## Remove .DS_Store
+## Remove cached .DS_Store
 
 `git rm --cached .DS_Store`

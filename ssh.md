@@ -1,8 +1,8 @@
 # SSH
 
-## SSH
+## Connect to remote
 
-- `ssh user@remote-ip-address`
+- `ssh user@<remote_ip_address`>
 - Enter the password
 
 ## How to show ip address in Ubuntu
