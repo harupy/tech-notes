@@ -1,6 +1,6 @@
 # scikit-learn
 
-## Functions often used
+## Frequently Used Functions
 
 ```
 from sklearn.model_selection import train_test_split
