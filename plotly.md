@@ -3,7 +3,7 @@
 ## Starter
 
 ```
-import plotly import offline as py, graph_objs as go, tools, figure_factory as ff
+from plotly import offline as py, graph_objs as go, tools, figure_factory as ff
 py.init_notebook_mode(connected=True)
 ```
 
