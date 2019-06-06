@@ -6,6 +6,52 @@ def read_json(filepath):
     return json.load(f)
 ```
 
+## Logger Function
+
+- [Basic example on how setup a Python logger](https://gist.github.com/nguyenkims/e92df0f8bd49973f0c94bddf36ed7fd0)
+- [Python Logging: In-Depth Tutorial | Toptal](https://www.toptal.com/python/in-depth-python-logging)
+
+```python
+import logging
+import sys
+import os
+
+
+FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+LOG_DIR = 'logs'
+LOG_FILE = f'{LOG_DIR}/app.log'
+
+
+def log_init():
+  if not os.path.exists(LOG_DIR):
+    os.mkdir(LOG_DIR)
+
+
+def get_stream_handler():
+  stream_hanlder = logging.StreamHandler(sys.stdout)
+  stream_hanlder.setFormatter(FORMATTER)
+  stream_hanlder.setLevel(logging.DEBUG)
+  return stream_hanlder
+
+
+def get_file_handler():
+  file_handler = logging.FileHandler(LOG_FILE, mode='a')
+  file_handler.setFormatter(FORMATTER)
+  file_handler.setLevel(logging.INFO)
+  return file_handler
+
+
+def get_logger(logger_name):
+  logger = logging.getLogger(logger_name)
+  logger.setLevel(logging.INFO)
+  logger.addHandler(get_stream_handler())
+  logger.addHandler(get_file_handler())
+  logger.propagate = False
+
+  return logger
+
+```
+
 ## Python Logger Starter
 
 ```python
