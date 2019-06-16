@@ -15,3 +15,8 @@
 ## Extensions
 
 `chrome://extensions/`
+
+## How to restore `console.log`
+
+- [javascript - Restoring console.log() - Stack Overflow](https://stackoverflow.com/questions/7089443/restoring-console-log)
+- [console.log が無効化されている場合に汚染されてない console.log を召喚する方法 - Qiita](https://qiita.com/nori4k/items/be008fe228871663d809)
