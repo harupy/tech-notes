@@ -16,3 +16,7 @@
 5. Change the key mappings
 
 [How to Switch the Control and Command Keys | Macinstruct](http://www.macinstruct.com/node/433)
+
+## How to repeat key with holding it in VSCode on Mac
+
+[visual studio code - How do I press and hold a key and have it repeat in VSCode? - Stack Overflow](https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode)
